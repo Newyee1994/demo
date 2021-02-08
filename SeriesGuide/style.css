@@ -1,6 +1,6 @@
 body {
 	font-family:"Microsoft YaHei",Cambria,Arial;
-	background:#FFF0F5;
+	background:#444;
 }
 
 a {
@@ -8,7 +8,7 @@ a {
 	text-decoration:none;
 }
 a:hover {
-	color:red;
+	color:#0099FF;
 	text-decoration:none;
 }
 
@@ -25,10 +25,15 @@ a:hover {
 	padding:2.5% 0;
 }
 .tame h1,.tame h2,.tame h3 {
-	font-size:24px;
+	font-family: STXingkai;
+	font-size:36px;
 	font-weight:700;
 	overflow:hidden;
-	color:#FC8BBB;
+	/* color:#1E90FF; */
+	/*文字内部填充色*/
+    -webkit-text-fill-color: #444;
+	/*文字边界宽度和填充色*/
+    -webkit-text-stroke: 0.8px #fff;
 	float:left;
 	margin:0;
 	padding:0;
@@ -51,7 +56,8 @@ a:hover {
 	float:left;
 	overflow:hidden;
 	cursor:pointer;
-	background:#FEDDEB;
+	color:#000;
+	background:#33CCFF;
 	font-size:18px;
 	font-weight:500;
 	text-align:center;
@@ -64,14 +70,14 @@ a:hover {
 	/* border-bottom:solid 2px #CEE6D6; */
 }
 .tov span:hover {
-	background:-webkit-linear-gradient(#FEDDEB,#fff);
+	background:-webkit-linear-gradient(#00BBFF,#fff);
 	/* opacity:0.8; */
 }
 .tov span.av {
 	height:36px;
 	background:#fff;
 	/* border-bottom:0; */
-	color:#C00;
+	color:#1E90FF;
 	font-weight:700;
 }
 
