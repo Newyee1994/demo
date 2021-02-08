@@ -25,7 +25,7 @@ a:hover {
 	padding:2.5% 0;
 }
 .tame h1,.tame h2,.tame h3 {
-	font-family: STXingkai;
+	font-family: KaiTi;
 	font-size:36px;
 	font-weight:700;
 	overflow:hidden;
@@ -95,6 +95,7 @@ a:hover {
 }
 .tists ul {
 	display:none;
+	padding-left:20px;
 }
 .tists li {
 	height:30px;
