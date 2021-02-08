@@ -81,24 +81,24 @@ a:hover {
 	clear:both;
 	padding-top:10px;
 	padding-bottom:5px;
-	font-size:18px;
+	font-size:16px;
 	background:#fff;
 	width:100%;
 	border-radius:0 10px 10px 10px;
 	/* min-height:315px; */
 }
 .tists ul {
-	display:none
+	display:none;
 }
 .tists li {
 	height:30px;
 	overflow:hidden;
 	line-height:30px;
 	background:url(icon.png) 3px 13px no-repeat;
-	padding-left:12px
+	padding-left:12px;
 }
 .tists li span a {
 	float:left;
 	color:#999;
-    width:60px
+    width:50px;
 }
